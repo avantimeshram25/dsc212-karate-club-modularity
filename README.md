@@ -68,4 +68,4 @@ I used GitHub Copilot to clarify Python library APIs, organize notebook sections
 1. M. E. J. Newman (2006), *Modularity and community structure in networks*, PNAS, 103(23), 8577-8582.
 2. W. W. Zachary (1977), *An information flow model for conflict and fission in small groups*, Journal of Anthropological Research, 33(4), 452-473.
 3. DSC212 course handout, *Modularity on the Karate Club Graph*.
-# dsc212-karate-club-modularity
+
