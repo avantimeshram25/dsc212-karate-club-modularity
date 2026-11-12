@@ -23,3 +23,4 @@ The graph is explicitly treated as unweighted, matching the 34-node, 78-edge gra
 ## Attribution
 
 The modularity matrix and spectral method follow Newman (2006), *Modularity and community structure in networks*. The data set originates from Zachary (1977), *An information flow model for conflict and fission in small groups*.
+# dsc212-karate-club-modularity
