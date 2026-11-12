@@ -4,12 +4,12 @@ Research assignment for DSC212: Graph Theory Module. This project implements rec
 
 ## 1. Goals
 
-The notebook addresses the required tasks:
+The executed notebook addresses every required task:
 
 1. Construct the modularity matrix and use its leading eigenvector to find a bipartition.
 2. Apply the spectral split recursively to detect multiple communities.
-3. Visualize the graph after every accepted split using a fixed layout and community colors.
-4. Compute degree, betweenness, closeness, and clustering metrics after each iteration.
+3. Visualize the baseline and graph after every accepted split using a fixed layout and community colors.
+4. Compute degree, betweenness, closeness, and clustering metrics at the baseline and after each split.
 5. Plot metric evolution and discuss which nodes remain central as the graph is divided.
 
 ## 2. Method
@@ -57,7 +57,7 @@ python3 -m venv .venv
 .venv/bin/jupyter nbconvert --to notebook --execute --inplace DSC212_Karate_Club_Modularity.ipynb
 ```
 
-The notebook runs top-to-bottom without manual edits. A fixed spring-layout seed makes the visualizations reproducible.
+The notebook runs top-to-bottom without manual edits. It prints the leading eigenvalue and discrete modularity gain for every accepted split, and a deterministic two-shell layout makes the visualizations reproducible.
 
 ## 6. AI usage disclosure
 
@@ -68,4 +68,3 @@ I used GitHub Copilot to clarify Python library APIs, organize notebook sections
 1. M. E. J. Newman (2006), *Modularity and community structure in networks*, PNAS, 103(23), 8577-8582.
 2. W. W. Zachary (1977), *An information flow model for conflict and fission in small groups*, Journal of Anthropological Research, 33(4), 452-473.
 3. DSC212 course handout, *Modularity on the Karate Club Graph*.
-# dsc212-karate-club-modularity
